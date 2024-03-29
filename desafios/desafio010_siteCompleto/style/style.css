@@ -182,15 +182,18 @@ footer {
 }
 
 footer a {
-    text-decoration: none;
+    color: var(--cor2);
     font-weight: bolder;
     text-decoration: underline;
 }
 
 footer a:visited {
-    color: rgb(0, 0, 238);
+    color: var(--cor2);
+    font-weight: bolder;
+    text-decoration: underline;
 }
 
 footer a:hover {
-    color: var(--cor1);
+    color: var(--cor0);
+    text-decoration: underline;
 }
