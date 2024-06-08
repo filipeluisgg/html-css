@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second table | Challenge 14</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 60vw;
+            max-width: 650px;
+        }
+
+        tbody th {
+            border: 1px solid black;
+        }
+
+        thead > * {
+            border: 1px solid black;
+            background-color: gray;
+            color: white;
+        }
+
+        td {
+            width: 80rem;
+            height: 2rem;
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        .table-data-media-number {
+            background-color: gray;
+            color: white;
+        }
+
+        .media-subject {
+            background-color: gray;
+            color: white;
+        }
+
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>Medias escolares!</caption>
+        <thead>
+            <tr>
+                <th rowspan="2" scope="col">Area</th>
+                <th rowspan="2" scope="col">Disciplinas</th>
+                <th colspan="2" scope="colgroup">Notas</th>
+                <th rowspan="2" scope="col">Média</th>
+            </tr>
+            <tr>
+                <th scope="col">Nota 1</th>
+                <th scope="col">Nota 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4" scope="rowgroup">Exatas</th>
+                <th scope="row">Matemática</th>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th scope="row">Física</th>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th scope="row">Química</th>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th scope="row">Biologia</th>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th class="media-subject" colspan="4" scope="row">Média de Exatas</th>
+                <td class="table-data-media-number">0.0</td>
+            </tr>
+
+            <tr>
+                <th rowspan="2" scope="rowgroup">humanas</th>
+                <th scope="row">História</th>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th scope="row">Geografia</th>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th class="media-subject" colspan="4" scope="row">Média de humanas</th>
+                <td class="table-data-media-number">0.0</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p><b>Ok, Challenge completed.</b></p>
+</body>
+
+</html>

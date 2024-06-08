@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+
+        th {
+            border: 1px solid black;
+            padding: 8px;
+            background-color: gray;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        .col-1 {
+            background-color: rgb(4, 255, 0);
+        }
+
+        .col-2-3 {
+            background-color: blue;
+        }
+
+        .col-4 {
+            background-color: yellow;
+        }
+
+    </style>
+</head>
+
+<body>
+    <table>
+        <colgroup>
+            <col class="col-1">
+            <col class="col-2-3" span="2">
+            <col class="col-4">
+        </colgroup>
+        <caption>Stylizing columns!</caption>
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alan Fernandes</td>
+                <td>M</td>
+                <td>22</td>
+                <td>Treinador</td>
+            </tr>
+            <tr>
+                <td>Luis Felipe</td>
+                <td>M</td>
+                <td>18</td>
+                <td>Estagiário de Ti</td>
+            </tr>
+            <tr>
+                <td>Caroline Farias</td>
+                <td>F</td>
+                <td>39</td>
+                <td>Pedagoga</td>
+            </tr>
+            <tr>
+                <td>Kelson Aziaga</td>
+                <td>M</td>
+                <td>40</td>
+                <td>Desempregado</td>
+            </tr>
+            <tr>
+                <td>Anna Stick</td>
+                <td>F</td>
+                <td>27</td>
+                <td>Coordenadora</td>
+            </tr>
+            <tr>
+                <td>Alana Santos</td>
+                <td>F</td>
+                <td>19</td>
+                <td>Empreendedora</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

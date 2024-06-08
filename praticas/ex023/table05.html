@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div#container {
+            overflow-x: auto; /*This is to roll only the table horizontally
+                                and not all the content in the webpage.*/
+        }
+        
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+
+        th {
+            border: 1px solid black;
+            padding: 8px;
+            background-color: gray;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Responsive tables...</h1>
+    <p>In this last video from module 03, I got a typ to do a little 
+        more responsive tables: encapsule all the table with a div and 
+        stylize this div using the parameter: overflow-x: auto; This will do
+        the table roll only in the horizontal.
+    </p>
+
+    <div id="container">
+        <table>
+            <caption>Responsive tables?</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Sexo</th>
+                    <th scope="col">Idade</th>
+                    <th scope="col">Profissão</th>
+                    <th scope="col">Experiência</th>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Sexo</th>
+                    <th scope="col">Idade</th>
+                    <th scope="col">Profissão</th>
+                    <th scope="col">Experiência</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Alan Fernandes</td>
+                    <td>M</td>
+                    <td>22</td>
+                    <td>Treinador</td>
+                    <td>3 anos</td>
+                    <td>Alan Fernandes</td>
+                    <td>M</td>
+                    <td>22</td>
+                    <td>Treinador</td>
+                    <td>3 anos</td>
+                </tr>
+                <tr>
+                    <td>Luis Felipe</td>
+                    <td>M</td>
+                    <td>18</td>
+                    <td>Estagiário de Ti</td>
+                    <td>2 anos</td>
+                    <td>Luis Felipe</td>
+                    <td>M</td>
+                    <td>18</td>
+                    <td>Estagiário de Ti</td>
+                    <td>2 anos</td>
+                </tr>
+                <tr>
+                    <td>Caroline Farias</td>
+                    <td>F</td>
+                    <td>39</td>
+                    <td>Pedagoga</td>
+                    <td>4 anos</td>
+                    <td>Caroline Farias</td>
+                    <td>F</td>
+                    <td>39</td>
+                    <td>Pedagoga</td>
+                    <td>4 anos</td>
+                </tr>
+                <tr>
+                    <td>Kelson Aziaga</td>
+                    <td>M</td>
+                    <td>40</td>
+                    <td>Desempregado</td>
+                    <td>8 anos</td>
+                    <td>Kelson Aziaga</td>
+                    <td>M</td>
+                    <td>40</td>
+                    <td>Desempregado</td>
+                    <td>8 anos</td>
+                </tr>
+                <tr>
+                    <td>Anna Stick</td>
+                    <td>F</td>
+                    <td>27</td>
+                    <td>Coordenadora</td>
+                    <td>5 anos</td>
+                    <td>Anna Stick</td>
+                    <td>F</td>
+                    <td>27</td>
+                    <td>Coordenadora</td>
+                    <td>5 anos</td>
+                </tr>
+                <tr>
+                    <td>Alana Santos</td>
+                    <td>F</td>
+                    <td>19</td>
+                    <td>Empreendedora</td>
+                    <td>7 anos</td>
+                    <td>Alana Santos</td>
+                    <td>F</td>
+                    <td>19</td>
+                    <td>Empreendedora</td>
+                    <td>7 anos</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
